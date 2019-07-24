@@ -1,6 +1,6 @@
 package za.co.julianwolf.enums;
 
-public enum  ClassEnum {
+public enum  eClass {
     NONE,
     BASIC_HERO,
     ARCHER,

@@ -1,6 +1,6 @@
-package za.co.julianwolf.interfaces;
+package za.co.julianwolf.enums;
 
-public enum State {
+public enum eState {
     NONE,
     IDLE,
     MOVING,
