@@ -32,7 +32,10 @@ public class Hero extends AbstractEntity implements IEntity{
 		if (amIAlive())
 			this.Health -= val;
 		if (amIDead())
+		{
 			MyLogger.logger.log(this.Name + " Is Dead");
+			GameManager.instance.objects.remove(this);
+		}
 	}
 
 	public void heal(float val) {
